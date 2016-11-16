@@ -6,11 +6,7 @@ class index {
 	}
 
 	function main() {
-		if (!isset($_REQUEST['-s'])) {
-			require_once('shiritori.php');
-		} else {
-			require_once('s.inc');
-		}
+		require_once('shiritori.php');
 	}
 }
 $index = new index();
